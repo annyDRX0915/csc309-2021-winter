@@ -1,0 +1,23 @@
+#SearchBarContainer{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.searchBox{
+    position: absolute;
+    width: 500px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.RequestButton {
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 0.2%;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    background-color: indianred;
+    color: white;
+}

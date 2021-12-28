@@ -1,0 +1,84 @@
+#body {
+    background-color: White;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: indianred;
+}
+
+.post_div{
+    margin-left: 10px;
+}
+
+#header {
+    position: relative;
+    height: 100px;
+    margin-top: 0;
+    /*margin-right: 10px;*/
+    background-color: IndianRed;
+}
+
+#upload-input {
+    position: absolute; top: 0; bottom: 0; left: 0;right: 0;
+    opacity: 0;
+}
+
+#image{
+    color: indianred
+}
+
+
+#upload {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    border: 1px solid #ff4b2b; border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: White;
+}
+
+
+#mid input{
+    margin-bottom: 10px;
+}
+
+#location {
+    text-align: top;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cancel_button {
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: indianred;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#upload{
+    height: 100px;
+    width: 100px;
+}

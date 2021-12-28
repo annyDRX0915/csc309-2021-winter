@@ -1,0 +1,18 @@
+.rectangle {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background: gray;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 75px;
+  }
+
+.cardInner {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardImg {
+    width: 150px;
+}

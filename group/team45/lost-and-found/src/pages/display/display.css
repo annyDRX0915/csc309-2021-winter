@@ -1,0 +1,48 @@
+
+#LostAndFoundCardContainer{
+    margin-bottom: 20px;
+    border: white 4px solid ;
+    background-color: #f9ebeb;
+    border-radius: 5px;
+}
+
+.displayCardContainer {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-color: indianred;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+.displayCardInner{
+    margin-left: 10px;
+    width: 250px;
+    height: 300px;
+    color: indianred;
+}
+
+.displayCardImg {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.LostAndFoundItemHeader{
+    height: 75px;
+    background-color: #f9ebeb;
+    color: indianred;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    line-height: 60px;
+}
+
+.displayIdLink{
+    text-decoration: none;
+    color: brown;
+}

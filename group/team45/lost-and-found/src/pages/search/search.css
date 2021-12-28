@@ -1,0 +1,46 @@
+#SearchCardContainer{
+    position: relative;
+    background-color: #f9ebeb;
+    border-bottom: 20px #f9ebeb solid;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.SearchHeader{
+    height: 75px;
+    background-color: #f9ebeb;
+    color: indianred;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    line-height: 60px;
+}
+
+.SearchRectangle{
+    position: relative;
+    background-color: white;
+    margin-left: 3%;
+    border: indianred 1px;
+    width: 90%;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+.searchCardInner{
+    position: absolute;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 0px;
+}
+
+.searchCardImg{
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    margin-top: 3%;
+    margin-left: 10px;
+}
+
+.searchIdLink{
+    text-decoration: none;
+    color: brown;
+}

@@ -1,0 +1,106 @@
+body {
+	background-color: White;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#header {
+    position: relative;
+    height: 100px;
+    margin-top: 0;
+	background-color: IndianRed;
+}
+
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: White;
+}
+
+#navBarContainer{
+    list-style-type: none;
+    padding: 0;
+    min-width: 125px;
+    background-color: lightgray;
+    position: -webkit-sticky;
+    height: 100vh;
+    overflow: auto;
+    margin-left: 0;
+    z-index:1;
+    float: left;
+}
+
+#tableContainer {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#requestContainer {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.MuiTable-root.userTable {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.userinfo {
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+
+.userinfo .MuiTableCell-root {
+    font-size: 0.75em;
+    color: darkslategray;
+    font-style: italic;
+}
+
+.userheader .MuiTableCell-root {
+    font-size: 0.75em;
+    color: darkslategray;
+}
+
+.userheader {
+    margin-bottom: 5px;
+    font-size: 200%;
+}
+
+.logoutButton {
+    position: absolute;
+    color: blue;
+    text-decoration: none;
+    top: 30px;
+    right: 20px;
+    font-size: 12px;
+}
+
+
+.rectangle {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-color: indianred;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+.cardInner {
+    margin-left: 10px;
+    width: 250px;
+    height: 300px;
+    color: indianred;
+}
+
+.cardImg {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}

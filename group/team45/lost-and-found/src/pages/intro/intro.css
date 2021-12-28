@@ -1,0 +1,121 @@
+
+
+.upper{
+    background-color: indianred;
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.lower{
+    background-color: indianred;
+    width: 100%;
+    height: 60px;
+    /*margin-top: 300px;*/
+    position: fixed;
+    bottom: 0;
+}
+
+.slogan{
+    color: indianred;
+    margin-top: 13px;
+    font-size: 30px;
+    display: center;
+}
+
+.picture-class{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.picture-class.image{
+    width: 200px;
+    height: 300px;
+
+}
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    font: Arial;
+}
+
+.bott{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.banner {
+    color: indianred;
+    font-size: 50px;
+    margin-right: 5vw;
+}
+
+
+.info {
+    margin-left: 5vw;
+}
+.flex {
+    display: flex;
+}
+.number-card {
+    margin-right: 2vw;
+}
+
+.redtxt {
+    color: indianred;
+    font-weight: 700;
+}
+
+
+
+/* CSS */
+.button-5 {
+    margin-bottom: 15px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: indianred;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    /*margin: 0;*/
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+/*// used online source*/
+.button-5:hover,
+.button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+

@@ -1,0 +1,47 @@
+#SearchBarContainer{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.searchBox{
+    position: absolute;
+    width: 500px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.searchButton {
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 0px;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.search_link {
+    margin-right: 10px;
+    /*width: 10*/
+    /*background-color: #0b0b0b;*/
+}
+
+.searchButton a {
+    display: block;
+    background-color: indianred;
+    color: white;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.searchButton a:hover {
+    background-color: white;
+    color: indianred;
+  }

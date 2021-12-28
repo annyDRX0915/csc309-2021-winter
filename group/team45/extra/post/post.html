@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+    <link href="post.css" rel="stylesheet">
+  
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <link rel="stylesheet"
+          href="../../../../../../Library/Containers/
+          com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/
+          2.0b4.0.9/9874c64cd472d75410d16655e760dcc9/Message/MessageTemp/9e20f478899dc29eb19741386f9343c8/
+          File/SearchStyle.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <h1 class='logo'>Make Post</h1>
+    </div>
+    
+    <div id="mid" style="margin-left: 20px; margin-bottom: 6px">
+        <h3 style="color: indianred">Show item type below</h3>
+        <form id="checkbook_item">
+            <input type="checkbox" id="phone" name="phone" value="phone">
+            <label for="phone"> Phone </label><br>
+            <input type="checkbox" id="clothing" name="clothing" value="clothing">
+            <label for="clothing"> Clothing </label><br>
+            <input type="checkbox" id="card" name="card" value="card">
+            <label for="card"> Card </label><br>
+            <input type="checkbox" id="document" name="document" value="document">
+            <label for="card"> Document </label><br>
+            <input type="checkbox" id="belongings" name="belongings" value="belongings">
+            <label for="card"> Belongings </label><br>
+            <label for="other"> Other item type: </label>
+            <input type="text" id="other" name="other" placeholder="optional">
+        </form>
+    </div >
+    
+    <div style="margin-left: 20px; margin-bottom: 6px">
+        <h3 style="color: indianred">Show lost time below</h3>
+        <form>
+            <p> Select the date: <input type="month" id="date" name="date"></p>
+            <p> Select the time: <input type="time" id="appt" name="appt"></p>
+        </form>
+    </div>
+    
+    <div style="position: relative; margin-left: 20px; margin-bottom: 6px">
+        <input id="upload-input" style="position:
+         absolute; top: 0; bottom: 0; left: 0;right: 0;
+          opacity: 0;" type="file" accept="image/gif, image/jpg, image/png" />
+        <div id="location">
+            <h3 style="color: indianred"> Upload images (Click to upload): <img id="upload"
+                                                              src="download.png"
+                                                              style="width: 60px;
+                                                              height: 60px;
+                                                              vertical-align: middle;
+                                                              border: 1px solid #ff4b2b; border-radius: 20px;"
+            /></h3>
+        </div>
+    </div>
+
+
+    <h3 style="color: indianred; margin-left: 20px; margin-bottom: 6px">Choose lost location</h3>
+    <p style="color: indianred; margin-left: 20px; margin-bottom: 6px">Click on a location on the map to select it.
+        Drag the marker to change location.</p>
+    <!--map div-->
+    <div id="map" style="margin-left: 20px; width:500px; height: 400px;"></div><br>
+
+    <!--our form-->
+    
+    <form method="post" style="margin-left: 20px">
+        <p>Latitude: <input type="text" id="lat" readonly="yes"><br></p>
+        <p>Longitude: <input type="text" id="lng" readonly="yes"></p>
+        <label for="locat"> Location: </label>
+        <input type="text" id="locat" name="locat" placeholder="required">
+    </form>
+
+    <script type="text/javascript" src="map.js"></script>
+    
+    <button style="margin-top: 20px; margin-left: 20px">Submit</button>
+    <button style="margin-left: 15px; margin-bottom: 20px">Cancel</button>
+
+
+    <body>
+</html>

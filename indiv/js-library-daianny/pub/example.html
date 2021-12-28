@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sound Visualizer Example</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./example.css">
+</head>
+
+<body>
+    <div>
+        <h1>soundVis.js - A Sound Visualizer</h1>
+        <table class="displayLinkTab">
+            <tr>
+              <th class="displayLink"><a href="https://limitless-refuge-06159.herokuapp.com/example">example</a></th>
+              <th class="displayLink"><a href="https://limitless-refuge-06159.herokuapp.com/api">api</a></th>
+            </tr>
+        </table>
+    </div>
+    <div class="AudioPlayerExample" style="margin-left: 100px;">
+        <h3>Change size</h3>
+        <button id = "changeSmall">Small</button>
+        <button id = "changeMedium">Medium</button>
+        <button id = "changeLarge">Large</button>
+        <div id = "sizingAudioVis"></div>
+
+        <h3>Change theme</h3>
+        <button id = "changeYellow">Yellow</button>
+        <button id = "changeBlue">Blue</button>
+        <button id = "changePink">Pink</button>
+        <div id = "audioVisTheme"></div>
+
+        <h3>Change information</h3>
+        <p>plese refer to the info icon to see what was modifyed</p>
+        <div><textarea 
+        id="changeInfoText" 
+        rows="4" 
+        cols="80" 
+        placeholder='Please type here'
+        style="resize: vertical;"></textarea></div>
+        <button id = "addInfo">Add</button>
+        <button id = "changeInfo">Replace</button>
+        <div id = "audioVisInfo"></div>
+    </div>
+
+    
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./soundVis.js"></script>
+    <script type="text/javascript" src="./example.js"></script>
+</body>
+</html>

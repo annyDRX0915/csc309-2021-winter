@@ -1,0 +1,80 @@
+#postContainer{
+    margin-top: 20px;
+    margin-left: 12%;
+    background-color: #f9ebeb;
+    width: 76%;
+    border-bottom: 20px #f9ebeb solid;
+    border-top: 10px #f9ebeb solid;
+}
+
+.postCardImg{
+    max-height: 400;
+    width: 75%;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.postInfoContainer{
+    margin-left: 3%;
+}
+
+.postTitle{
+    color: indianred;
+    margin-top: 20px;
+    margin-left: 3%;
+
+}
+
+#PostReplyContainer{
+    margin-top: 20px;
+    margin-left: 12%;
+    background-color: #f9ebeb;
+    width: 76%;
+    border-bottom: 20px #f9ebeb solid;
+}
+
+.postReplyImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.postReplyUsername{
+    margin-left: 3%;
+    color: grey;
+}
+
+.postReplyTime{
+    margin-left: 3%;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.postReplyContent{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 150%;
+    background-color: white;
+}
+
+#PostReplyBox{
+    margin-top: 10px;
+    margin-left: 12%;
+    width: 75%;
+    resize: vertical;
+}
+
+#PostReplyButtonContainer{
+    margin-left: 12%;
+}
+
+.PostReplyButton{
+    background-color: indianred;
+    color: white;
+    padding: 5px 50px;
+    font-size: 110%;
+    text-decoration: none;
+    border: none;
+}

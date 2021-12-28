@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sound Visualizer Example</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./example.css">
+</head>
+
+<body>
+    <div>
+        <h1>soundVis.js - A Sound Visualizer</h1>
+        <table class="displayLinkTab">
+            <tr>
+                <th class="displayLink"><a href="https://limitless-refuge-06159.herokuapp.com/example">example</a></th>
+                <th class="displayLink"><a href="https://limitless-refuge-06159.herokuapp.com/api">api</a></th>
+            </tr>
+        </table>
+
+        <h3>Getting Started</h3>
+        <p>To use this library, you need to include 'soundVis.js' and 'style.css' in your HTML <br>
+            For example, you can add the folowing lines of code to your html: <br>
+            &lt; script src="./soundVis.js" &gt; &lt; /script &gt; <br>
+            &lt; link rel="stylesheet" href="./style.css" &gt;  <br>
+        </p>
+
+        <h3>Variables</h3>
+        <p>all the global variables</p>
+        <table>
+            <tr>
+              <th>Property</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>AudioInfo.audioPath</td>
+              <td>String</td>
+              <td>The path that stores the audio</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.div</td>
+              <td>Object</td>
+              <td>The whole sound Visualizer object that you can modify or get its properties</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.controlDiv</td>
+              <td>Object</td>
+              <td>The control object that you can modify or get its properties</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.canvasDiv</td>
+              <td>Object</td>
+              <td>The canvas object that you can modify or get its properties</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.headderDiv</td>
+              <td>Object</td>
+              <td>The headder object of the sound visualizer that you can modify or get its properties</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.infoDiv</td>
+              <td>Object</td>
+              <td>The pop-up info object of the sound visualizer that you can modify or get its properties</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.size</td>
+              <td>Int</td>
+              <td>An integer that represents different choice of the size of the visualizer <br>
+                (0 = small, 1 = medium, 2 = large)</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.theme</td>
+              <td>String</td>
+              <td>An string that represents different choice of the theme of the visualizer <br>
+                (yellow, blue, pink)</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.audioCtx</td>
+              <td>Object</td>
+              <td>The audio content object of the audio we are visualizing</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.requestId</td>
+              <td>Int</td>
+              <td>The request id to stop drawing to the canvas object of the visualizer</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.id</td>
+              <td>Int</td>
+              <td>The  id of the visualizer</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.background_color</td>
+              <td>String</td>
+              <td>The background color of the canvas object</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.colors</td>
+              <td>List of String</td>
+              <td>The list of colors of the strips that the canvas object display as the audio plays</td>
+            </tr>
+            <tr>
+              <td>AudioInfo.curr_color</td>
+              <td>int</td>
+              <td>The index of the current color that the canvas object display as the audio plays</td>
+            </tr>
+        </table>
+        
+
+        <h3>Functions</h3>
+        <p>all functions of the API</p>
+        <div style="background-color:#BDBDBD; line-height: 150%">
+            <p>
+                <b>const sg = new ShapeGenerator();</b> <br>
+                Create a new shape generator element <br><br>
+
+                <b>id = sg.makeShape("audiopath.mp3", "div_id", "Audio_Name");</b> <br>
+                make a small visualizer with yellow theme that gets the audio from audio path audiopath.mp3 in a html block 
+                with id div_id and audio name Audio_Name. This method will return the id(that is stored in data but not HTML)
+                of the object created<br><br>
+                
+                <b>sg.deleteShape(id);</b> <br>
+                delete the shape with the specific id <br><br>
+
+                <b>sg.changeTheme(id, "blue");</b> <br>
+                change the theme of the visualizer with the specific id. The theme can be ("blue", "yellow", or "pink")<br><br>
+
+                <b>sg.changeSize(id, 1);</b> <br>
+                change the size of the visualizer with the specific id. The size can be (0, 1, or 2)<br><br>
+
+                <b>sg.addToInfo(id, "info");</b> <br>
+                add information to the pop-up info window<br><br>
+
+                <b>sg.changeInfo(id, "info");</b> <br>
+                change all content of the information of the pop-up info window<br><br>
+
+                <b>sg.getNumVis();</b> <br>
+                get the number of visualizers that has been created<br><br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
